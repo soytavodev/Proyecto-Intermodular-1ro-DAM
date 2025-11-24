@@ -1,0 +1,15 @@
+[
+  {
+    "titulo": "Primer artículo",
+    "fecha": "2025-11-12",
+    "autor": "Gustavo Delnardo",
+    "contenido": "Este es el contenido del primer artículo del blog."
+  },
+  {
+    "titulo": "Segundo artículo",
+    "fecha": "2025-11-12",
+    "autor": "Gustavo Delnardo",
+    "contenido": "Aquí añadimos más contenido para el blog."
+  }
+]
+

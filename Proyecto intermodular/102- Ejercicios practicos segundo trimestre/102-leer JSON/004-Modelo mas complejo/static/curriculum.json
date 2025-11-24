@@ -1,0 +1,23 @@
+{
+  "datos_personales":{
+    "nombre":"Gustavo Enrique",
+    "apellidos":"Delnardo Vallejo",
+    "correo":"info@jocarsa.com",
+    "telefonos":["653563","5432234"]
+  },
+  "experiencias_laborales":[
+    {
+      "titulo":"Profesor",
+      "empresa":"CEAC",
+      "timespan":"2025-presente",
+      "descripcion":"Profesor en ciclos formativos de formación profesional"
+    },
+    {
+      "titulo":"Profesor",
+      "empresa":"CEAC",
+      "timespan":"2025-presente",
+      "descripcion":"Profesor en ciclos formativos de formación profesional"
+    }
+  ]
+  
+}

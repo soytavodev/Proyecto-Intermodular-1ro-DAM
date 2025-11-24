@@ -1,0 +1,20 @@
+{
+  "nombre": "Gustavo Delnardo",
+  "email": "gustavo@example.com",
+  "telefono": "123456789",
+  "codigo_postal": "28001",
+  "direccion": "Calle Falsa 123",
+  "experiencia": [
+    {
+      "empresa": "Empresa A",
+      "puesto": "Desarrollador Junior",
+      "periodo": "2025-2026"
+    },
+    {
+      "empresa": "Empresa B",
+      "puesto": "Prácticas DAM",
+      "periodo": "2024-2025"
+    }
+  ]
+}
+

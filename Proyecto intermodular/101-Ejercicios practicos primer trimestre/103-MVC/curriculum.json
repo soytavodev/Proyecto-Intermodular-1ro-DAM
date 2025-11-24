@@ -1,0 +1,13 @@
+{
+	"datos personales":{
+		"nombre":"Gustavo",
+		"apellidos":"Delnardo",
+		"email":"gustavoedv22@gmail.com",
+		"telefono":"642600105",
+		"direccion":"La calle de Gustavo",
+		"codigo_postal":"46000 Valencia"
+	},
+	"experiencia":"",
+	"formacion":""
+
+}

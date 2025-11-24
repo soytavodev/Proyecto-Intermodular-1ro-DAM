@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Curriculum</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; }
+      .contenedor { display: flex; gap: 20px; }
+      .izquierda { flex: 2; }
+      .derecha { flex: 1; background: #f0f0f0; padding: 10px; }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="izquierda">
+        <h1>{{ nombre }}</h1>
+        <h2>Experiencia</h2>
+        <ul>
+          {% for exp in experiencia %}
+          <li>{{ exp.puesto }} en {{ exp.empresa }} ({{ exp.periodo }})</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="derecha">
+        <p>Email: {{ email }}</p>
+        <p>Teléfono: {{ telefono }}</p>
+        <p>Código Postal: {{ codigo_postal }}</p>
+        <p>Dirección: {{ direccion }}</p>
+      </div>
+    </div>
+  </body>
+</html>
+
