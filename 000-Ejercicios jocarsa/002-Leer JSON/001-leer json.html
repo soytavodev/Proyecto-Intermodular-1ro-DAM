@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plantilla fetch</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Ejercicio 1: Fetch API</h1>
+    <p>Abre la consola (F12) para ver los resultados.</p>
+    
+    <script>
+      // ADAPTACIÓN A TU CARPETA:
+      // Como el json está dentro de 'static', indicamos la ruta relativa:
+      fetch("static/curriculum.json") 
+        .then(function(respuesta){
+          return respuesta.json(); 
+        })
+        .then(function(datos){
+          console.log("Datos leídos desde la carpeta static:");
+          console.log(datos);       
+        })
+        .catch(function(error){
+           console.error("Error: No encuentro el archivo. ¿Está en la carpeta static?", error);
+        });
+    </script>
+  </body>
+</html>
